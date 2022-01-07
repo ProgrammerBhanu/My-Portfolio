@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiPycharm,
+  SiGithub,
   SiVisualstudiocode,
   SiJupyter,
   SiPostman,
@@ -12,7 +12,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />

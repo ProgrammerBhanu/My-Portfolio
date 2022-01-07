@@ -9,13 +9,7 @@ import {
   DiPython,
   DiGit
 } from "react-icons/di";
-import {
-  SiPytorch,
-  SiCss3,
-  SiFirebase,
-  SiRedux,
-  SiMysql
-} from "react-icons/si";
+import { SiCss3, SiRedux, SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
