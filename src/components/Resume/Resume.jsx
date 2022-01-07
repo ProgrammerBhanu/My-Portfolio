@@ -1,9 +1,6 @@
 // import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import Particle from "../Particle";
-// import Resumecontent from "./ResumeContent";
-// import axios from "axios";
 import pdf from "../../Assets/Bhanu_Solanki_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 

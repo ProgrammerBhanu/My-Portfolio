@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import dp from "../../Assets/dp.png";
 
 function Home() {
   return (
@@ -13,8 +14,17 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
+              <img
+                src={dp}
+                style={{ width: "170px" }}
+                className="mydp"
+                alt="Profile"
+              />
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+                Hi There!{" "}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
               </h1>
 
               <h1 className="heading-name">

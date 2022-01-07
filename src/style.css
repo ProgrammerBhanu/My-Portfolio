@@ -152,10 +152,12 @@ html {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.4em !important;
+  width: 10em !important;
 }
-
+.mydp {
+  margin: 0% 0% 1rem 2rem;
+}
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
@@ -248,7 +250,7 @@ html {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 10px !important;
 }
 
 .home-section {
