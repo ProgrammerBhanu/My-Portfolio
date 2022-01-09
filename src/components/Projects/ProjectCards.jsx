@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Button } from "react-bootstrap";
 import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCards(props) {
@@ -12,9 +12,19 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
+        <Button
+          size="sm"
+          className="mr-2"
+          variant="primary"
+          href={props.link1}
+          target="_blank"
+        >
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
+        </Button>
+        <Button size="sm" variant="primary" href={props.link2} target="_blank">
+          <BiLinkExternal /> &nbsp;
+          {props.isBlog ? "View Blog" : "Deployment"}
         </Button>
       </Card.Body>
     </Card>
