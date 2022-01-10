@@ -51,7 +51,7 @@ function Projects() {
               description="Using HTML, CSS Javascript & API's. A web application that allows users to translate text one language to another.
               "
               link1="https://github.com/ProgrammerBhanu/Masai-Translator"
-              link2="#"
+              link2="https://github.com/ProgrammerBhanu/Masai-Translator"
             />
           </Col>
         </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCards(props) {
@@ -22,7 +22,7 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
-        <Button size="sm" variant="primary" href={props.link2} target="_blank">
+        <Button variant="primary" href={props.link2} size="sm" target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "Deployment"}
         </Button>
